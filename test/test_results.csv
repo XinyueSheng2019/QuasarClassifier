@@ -1,0 +1,3 @@
+features,format,processed,set_GPR,rnn_type,hidden_layers,dropout,batch_size,num_epochs,test_fraction,optimizer,learning_rate,decay,AUC,recall,specificity,precision,f1_score,TN,FP,FN,TP
+['g'],group,s,False,LSTM,"[32, 32]",0.35,128,50,0.2,adam,0.0001,,0.8568362091932964,0.739812959251837,0.8030807660283097,0.8240327380952381,0.7796550510383669,1929,473,779,2215
+['g'],group,s,False,LSTM,"[32, 32]",0.35,128,50,0.2,adam,0.0001,,0.8636000838757727,0.7120908483633934,0.8492922564529559,0.8548516439454691,0.7769679300291544,2040,362,862,2132

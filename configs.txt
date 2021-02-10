@@ -1,0 +1,29 @@
+Classifier Configuration
+
+--- input config ---
+train_path: ../data/processed/unbalanced/train_set.csv
+test_path: ../data/processed/unbalanced/test_set.csv
+save_path: test
+seed: 34
+features: g
+format: group
+processed: s
+set_GPR: False
+group_size: 67
+group_num: None
+cut_fraction: 
+
+--- network config ---
+rnn_type: LSTM
+hidden_layers: [32,32]
+dropout: 0.35
+plot_model: True
+
+--- training config ---
+batch_size: 128
+num_epochs: 50
+test_fraction: 0.2
+optimizer: adam
+learning_rate: 0.0001
+decay: 
+metrics: accuracy,AUC
