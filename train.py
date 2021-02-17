@@ -451,9 +451,9 @@ if __name__ == '__main__':
 
     predict(model, X_test, Y_test, path, config)
     
-    title = ','.join(config['features'])    
-    model.save(path+'/model_'+title+'_ep_'+str(config['num_epochs'])+'_bs_'+str(config['batch_size'])+'.h5')
-    print("Save model to the disk.") 
+    # title = ','.join(config['features'])    
+    # model.save(path+'/model_'+title+'_ep_'+str(config['num_epochs'])+'_bs_'+str(config['batch_size'])+'.h5')
+    # print("Save model to the disk.") 
 
     
 

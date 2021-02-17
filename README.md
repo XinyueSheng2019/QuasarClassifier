@@ -4,10 +4,11 @@ A classifier which is able to recognize quasar objects from variable transients.
 
 ## Dataset Download ##
   For SDSS Stripe82 quasar-targated dataset, the data repository is here: https://www.kaggle.com/sherrysheng97/sdss-stripe82-quasar-targeted-dataset
-  Please download it to your local facility.
+
 
   For PLASTiCC dataset, the data repository is here: https://www.kaggle.com/c/PLAsTiCC-2018
-  I would suggest to use Kaggle notebook to run all codes as the storage of the data is super huge (over 35GB).
+  
+  Kaggle notebook is suggested to run all codes.
 
 
 ## Packages version  
