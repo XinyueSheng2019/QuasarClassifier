@@ -7,8 +7,6 @@ A classifier which is able to recognize quasar objects from variable transients.
 
 
   For PLASTiCC dataset, the data repository is here: https://www.kaggle.com/c/PLAsTiCC-2018
-  
-  Kaggle notebook is suggested to run all codes.
 
 
 ## Packages version  
@@ -24,9 +22,14 @@ A classifier which is able to recognize quasar objects from variable transients.
 
   Jump to the Train your classifier part, adjust the `config.txt file`, and run the `train.py`.
 
+## Run on Kaggle 
+  Kaggle notebook is strongly suggested to run all codes: https://www.kaggle.com/sherrysheng97/quasar-classifier-sdss-plasticc
+
+  All training and test data are provided. You just need to modify the configuration settings, and then click 'run all'. 
+
 ## Build your own classifier
 
-### Match objects' classes with three catalogs(DR14Q, Milliquas, Standard Star Catalog)
+<!-- ### Match objects' classes with three catalogs(DR14Q, Milliquas, Standard Star Catalog)
 
 In `data/source/`folder, 
 `DR14Q/DR14Q_v4_4.fits` is the Sloan Digital Sky Survey Quasar Catalog fourteenth data release; 
@@ -117,7 +120,7 @@ After generating the json files, we need to combine and clean the data to geneta
 python preprocess.py
 ```
 Processed file will be generated in `processed/`file. `balanced/` and `unbalanced/` folders conrespond to datasets with balanced/unbalanced classes. 
-
+ -->
 ### Train your classifier
 
 In `train/` folder, `configs.txt` is used for designing the architecture of the classifier. After setting the configurations, run the `train.py` file to train and test the classifier.
